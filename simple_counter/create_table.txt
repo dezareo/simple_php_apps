@@ -1,0 +1,6 @@
+//use test database in phpmyadmin
+//create table 'counter' in test database
+
+CREATE TABLE 'counter' {
+'counter' int(9) NOT NULL default '0'
+} TYPE=MyISAM;
