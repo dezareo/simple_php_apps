@@ -1,0 +1,5 @@
+<?php
+
+//simple counter
+
+?>
