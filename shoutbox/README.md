@@ -1,1 +1,1 @@
-PHP based shoutbox application, fully responsive and nice css styling.
+PHP based shoutbox application, fully responsive and nice css styled.
