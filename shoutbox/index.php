@@ -24,6 +24,9 @@
 				</ul>
 			</div>
 			<div id="input">
+				<?php if(isset($_GET['erorr'])) : ?>
+					<div class="error"><?php echo $_GET['error']; ?></div>
+				<?php endif; ?>
 				<form method="post" action="process.php">
 					<input type="text" name="user" placeholder="Enter Your Name" />
 					<input type="text" name="message" placeholder="Enter A Message" />
